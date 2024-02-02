@@ -40,7 +40,7 @@ export function Features() {
     ]
 
     return (
-        <Grid px={{base: "5%", lg: "17.5%"}} py={{base: "10%", lg: "5%"}} templateColumns={{base: "1fr", lg: "1fr 1fr"}} align={"center"} justify={"center"} gap={"50px"} >
+        <Grid px={{base: "5%", lg: "17.5%"}} py={{base: "10%", lg: "5%"}} templateColumns={{base: "1fr", lg: "1fr 1fr"}} gap={"50px"} >
             {features.map((feature, idx) =>  (
                 <GridItem key={idx} >
                     <FeatureCard {...feature} key={feature.name} />
