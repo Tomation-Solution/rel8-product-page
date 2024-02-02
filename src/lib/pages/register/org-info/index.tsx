@@ -9,7 +9,7 @@ export function OrgInfo() {
     const [countries, setCountries] = useState([]);
 
     useEffect(() => {
-        getCountries().then(data => setCountries(data?.sort((a, b) => b - a)?.map(each => each?.name?.common) || []));
+        getCountries().then(data => setCountries((data?.map((each: any) => each?.name?.common) || [])?.sort((a: any, b: any) => b - a)));
     }, [])
 
     return (

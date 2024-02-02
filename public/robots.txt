@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://spns-magazine.com
+Host: https://bppreview.org
 
 # Sitemaps
-Sitemap: https://spns-magazine.com/sitemap.xml
+Sitemap: https://bppreview.org/sitemap.xml
